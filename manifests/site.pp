@@ -1,3 +1,3 @@
 node 'peclient.eidikointernal.com' {
-  include weblogic
+  include role::server
 }
