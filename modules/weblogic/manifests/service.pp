@@ -1,4 +1,4 @@
-class weblogic::service inherits weblogic {
+class weblogic::service  {
 
 exec { "group":
   command => "/usr/sbin/groupadd  oinstall -g 1070 ",

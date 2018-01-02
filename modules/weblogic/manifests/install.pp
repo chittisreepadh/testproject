@@ -1,4 +1,4 @@
-class weblogic::install inherits weblogic{
+class weblogic::install {
 exec {"permissions":
 command => "/usr/sbin/usermod -G vboxsf oracle", }
 exec { "installation" :
