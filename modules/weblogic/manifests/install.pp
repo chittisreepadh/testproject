@@ -1,5 +1,5 @@
 class weblogic::install {
-exec { "installation" :
+exec { "installation":
 command => "/usr/local/java/bin/java -jar /media/sf_bandaru/weblogic/fmw_12.2.1.2.0_wls.jar -silent -responseFile /media/sf_bandaru/wlsinstallation.rsp -invPtrLoc /u01/oraInst.loc",
 user    => oracle,
 group   => oinstall,
