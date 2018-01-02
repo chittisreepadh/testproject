@@ -5,7 +5,7 @@ class weblogic::config inherits weblogic{
    owner => "oracle",
    group => "oinstall",
 }
-file { "/u05/oraInst.loc":
+file { "/u01/oraInst.loc":
    ensure => "file",
    content => "inventory_loc=/u01app/oraInventory\ninst_group=oinstall\n",
    mode => '0777',
